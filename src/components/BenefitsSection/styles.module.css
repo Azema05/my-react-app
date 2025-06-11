@@ -1,0 +1,49 @@
+.section6_2 {
+  background-image: url(/img/Patterns.png);
+  background-repeat: no-repeat;
+  padding-top: 167px;
+  padding-bottom: 347px;
+}
+.herotext_sec6_2 {
+  width: 441px;
+  height: 41px;
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 900;
+  margin: 0 auto;
+  text-align: center;
+}
+.con_sec6_2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 113px;
+}
+.d1sec6_2,
+.d2sec6_2,
+.d3sec6_2,
+.d4sec6_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.textsec6_2,
+.text3sec6_2,
+.text5sec6_2,
+.text7sec6_2 {
+  width: 196px;
+  height: 24px;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.text2sec6_2,
+.text4sec6_2,
+.text6sec6_2,
+.text8sec6_2 {
+  margin-top: 19px;
+  width: 288px;
+  height: 54px;
+  font-size: 16px;
+  color: #958A8A;
+}

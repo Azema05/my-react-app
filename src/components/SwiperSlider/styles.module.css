@@ -1,0 +1,22 @@
+.content_section3_1 {
+  background-image: url(/img/Vector\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -21px;
+  margin-top: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper {
+  width: 100vw;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+.content_section1 {
+  display: flex;
+  background-image: url(/img/Rectangle\ 10.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text_hero {
+  width: 481.16px;
+  height: 122.64px;
+  margin-top: 195px;
+  margin-left: 81px;
+}
+.hero__description {
+  flex: 1;
+}
+.text_header {
+  width: 510px;
+  height: 62px;
+  font-size: 18px;
+  line-height: 30.78px;
+  margin-left: 81px;
+  margin-top: 23px;
+  color: #595959;
+}
+.btn_hero_div {
+  width: 126px;
+  height: 37px;
+  margin-left: 81px;
+  margin-top: 34px;
+  background-color: #0033FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 105px;
+}
+.btn_hero {
+  color: #ffffff;
+  width: 56px;
+  height: 15px;
+  font-size: 12px;
+  line-height: 14.06px;
+}

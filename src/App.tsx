@@ -1,16 +1,36 @@
+//Модуль 3, задание 3
+// import React from 'react';
+// import Message from './components/Message';
+
+// const App: React.FC = () => {
+//   const messageText = 'Пропс'
+
+//   return (
+//     <div>
+//       <h1>Моё приложение на Vite + React + TypeScript</h1>
+//       {}
+//       <Message text={messageText} />
+//     </div>
+//   );
+// };
+
+// export default App;
+
 import React from 'react';
-import Message from './components/Message';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './components/Home/Home';
 
-const App: React.FC = () => {
-  const messageText = 'Пропс'
-
+function App() {
   return (
-    <div>
-      <h1>Моё приложение на Vite + React + TypeScript</h1>
-      {}
-      <Message text={messageText} />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;
