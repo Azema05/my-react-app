@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles.module.css'
+import './styles.css'
 
-const CallToActionSection: React.FC = () => {
+const GradientSection: React.FC = () => {
   return (
     <section className="block_gradient">
       <h2 className="text_gradient">Come change the way <br /> people make music</h2>
@@ -10,4 +10,4 @@ const CallToActionSection: React.FC = () => {
   );
 };
 
-export default CallToActionSection;
+export default GradientSection;

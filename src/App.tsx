@@ -1,4 +1,4 @@
-//Модуль 3, задание 3
+//Модуль 3, задание 1
 // import React from 'react';
 // import Message from './components/Message';
 

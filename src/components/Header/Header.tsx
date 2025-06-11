@@ -1,12 +1,12 @@
 import React from 'react';
-import './styles.module.css';
+import './styles.css';
 
 const Header: React.FC = () => {
   return (
     <header className="page_header header">
       <div className="container">
         <a className="hader_logo" href="#">
-          <img src="/img/Group.svg" alt="splice" />
+          <img src="/img/Group.png" alt="splice" />
         </a>
         <nav className="header_navigation">
           <ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.module.css';
+import './styles.css';
 
 const Modal: React.FC = () => {
   return (
@@ -23,6 +23,6 @@ const Modal: React.FC = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Modal;
