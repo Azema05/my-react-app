@@ -5,7 +5,7 @@ import unlock from '../../../../img/Unlock.png'
 import download from '../../../../img/Download.png'
 import play from '../../../../img/Play.png'
 
-const FuncSection: React.FC = () => {
+const FuncSection = () => {
   return (
     <section className="section6_2">
       <div>

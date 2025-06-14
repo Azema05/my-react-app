@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const SwiperSlider: React.FC = () => {
+const SwiperSlider = () => {
   return (
     <section className="section_3_4">
       <div className="content_section3_1">

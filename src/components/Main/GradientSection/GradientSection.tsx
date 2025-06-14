@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css'
 
-const GradientSection: React.FC = () => {
+const GradientSection = () => {
   return (
     <section className="block_gradient">
       <h2 className="text_gradient">Come change the way <br /> people make music</h2>

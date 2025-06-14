@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const Modal: React.FC = () => {
+const Modal = () => {
   return (
     <div className="modal-overlay" id="modalOverlay">
       <div className="modal-window" id="modalWindow">

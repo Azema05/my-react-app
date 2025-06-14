@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const CardSection: React.FC = () => {
+const CardSection = () => {
   return (
     <section className="content_section6 creators_text">
       <div className="sec6_world">

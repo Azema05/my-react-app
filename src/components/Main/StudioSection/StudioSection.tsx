@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const StudioSection: React.FC = () => {
+const StudioSection = () => {
   return (
     <section className="content_section5 stay_text">
       <div className="text_section5">

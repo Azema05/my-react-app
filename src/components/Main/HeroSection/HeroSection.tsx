@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const HeroSection: React.FC = () => {
+const HeroSection = () => {
   return (
     <section className="content_section1 hero">
       <div className="hero__description">

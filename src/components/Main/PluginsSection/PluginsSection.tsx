@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const PluginsSection: React.FC = () => {
+const PluginsSection = () => {
   return (
     <section className="section_3_4">
       <div className="content_section4 bulid_text">

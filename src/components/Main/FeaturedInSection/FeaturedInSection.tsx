@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const FeaturedInSection: React.FC = () => {
+const FeaturedInSection = () => {
   return (
     <section className="content_section2 text_img">
       <p className="text_sec2">FEATURED IN</p>

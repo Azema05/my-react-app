@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
     <header className="page_header header">
       <div className="container">

@@ -10,9 +10,10 @@ import FuncSection from '../Main/FuncSection/FuncSection';
 import GradientSection from '../Main/GradientSection/GradientSection';
 import Modal from '../Modal/Modal';
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <>
+     <h1>THIS IS HOME PAGE</h1>
       <HeroSection />
       <FeaturedInSection />
       <SoundsSection />

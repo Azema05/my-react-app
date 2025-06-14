@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const SoundsSection: React.FC = () => {
+const SoundsSection = () => {
   return (
     <section className="content_section3 text_find">
       <p className="text_sec3">SOUNDS</p>
