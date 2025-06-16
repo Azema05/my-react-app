@@ -13,7 +13,6 @@ import Modal from '../Modal/Modal';
 const Home = () => {
   return (
     <>
-     <h1>THIS IS HOME PAGE</h1>
       <HeroSection />
       <FeaturedInSection />
       <SoundsSection />

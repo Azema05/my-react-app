@@ -10,12 +10,12 @@ const SwiperSlider = () => {
             <div className="swiper-slide">
               <img src="/img/image 12.png" alt="slide" />
             </div>
-            <div className="swiper-slide">
+            {/* <div className="swiper-slide">
               <img src="/img/image 12.png" alt="slide" />
             </div>
             <div className="swiper-slide">
               <img src="/img/image 12.png" alt="slide" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
