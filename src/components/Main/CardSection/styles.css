@@ -59,7 +59,6 @@
   display: grid;
   gap: 40px;
   margin-top: 328px;
-  background-image: url(/img/Patterns.png);
   background-repeat: no-repeat;
 }
 .card {
