@@ -1,0 +1,15 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 328px;
+  background-image: url(/img/Patterns.png);
+  background-repeat: no-repeat;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 16px;
+  color: red;
+}
