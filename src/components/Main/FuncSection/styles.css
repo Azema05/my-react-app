@@ -1,3 +1,60 @@
+.content_section6 {
+  margin-top: 69px;
+  background-image: url(/img/Vector\ 7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 182px;
+}
+.sec6_world {
+  display: flex;
+  background-image: url(/img/Subtract.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  justify-content: center;
+  column-gap: 257px;
+  padding-bottom: 15%;
+}
+.sec6_world_text {
+  margin-top: 423px;
+  margin-right: 21px;
+}
+.text_section6 {
+  width: 400px;
+  height: 156px;
+  font-size: 48px;
+  line-height: 51.84px;
+  color: #ffffff;
+  font-weight: 900;
+}
+.text2_section6 {
+  margin-top: 22px;
+  width: 400px;
+  height: 93px;
+  font-size: 18px;
+  line-height: 30.78px;
+  color: #958A8A;
+}
+.div_btn_splice {
+  margin-top: 40px;
+  width: 154px;
+  height: 37px;
+  background-color: #0033FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 105px;
+}
+.btn_splice {
+  color: #ffffff;
+  width: 84px;
+  height: 15px;
+  font-size: 12px;
+  line-height: 14.06px;
+  text-align: center;
+}
+
+
 .section6_2 {
   background-image: url(/img/Patterns.png);
   background-repeat: no-repeat;
@@ -5,8 +62,8 @@
   padding-bottom: 347px;
 }
 .herotext_sec6_2 {
-  width: 441px;
-  height: 41px;
+  /* width: 441px;
+  height: 41px; */
   font-size: 38px;
   color: #ffffff;
   font-weight: 900;

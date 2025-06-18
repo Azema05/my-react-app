@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import CardList from '../Card/CardList'
 import volume from '../../../../img/Volume Up.png'
 import unlock from '../../../../img/Unlock.png'
 import download from '../../../../img/Download.png'
@@ -8,16 +9,19 @@ import play from '../../../../img/Play.png'
 const FuncSection = () => {
   return (
     <section className="content_section6">
-      <div class="sec6_world">
-        <div class="sec6_world_text">
-          <h2 class="text_section6">What <span class="span_color">creators</span> are saying about Splice
+      <div className="sec6_world">
+        <div className="sec6_world_text">
+          <h2 className="text_section6">What <span className="span_color">creators</span> are saying about Splice
           </h2>
-          <p class="text2_section6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue tellus
+          <p className="text2_section6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue tellus
             urna, mi velit
             diam. Turpis
             diam amet massa id.
           </p>
-          <div class="div_btn_splice"><a class="btn_splice" href="#">TRY IT NOW</a></div>
+          <div className="div_btn_splice"><a className="btn_splice" href="#">TRY IT NOW</a></div>
+        </div>
+        <div className="cards2" id="information-cards">
+          <CardList />
         </div>
       </div>
       <div className="section6_2">
