@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles.css';
 import CardList from '../Card/CardList'
 import volume from '../../../../img/Volume Up.png'

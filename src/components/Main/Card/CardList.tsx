@@ -2,10 +2,16 @@ import { useEffect, useState } from 'react';
 import Card from './Card';
 import './CardList.css';
 
+interface Comment {
+  id: number;
+  name: string;
+  body: string;
+}
+
 export default function CardSection() {
-  const [cards, setCards] = useState([]);
+  const [cards, setCards] = useState<Comment[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/comments?_limit=4')
@@ -13,7 +19,7 @@ export default function CardSection() {
         if (!res.ok) throw new Error('Ошибка сети');
         return res.json();
       })
-      .then((data) => {
+      .then((data: Comment[]) => {
         setCards(data);
         setLoading(false);
       })
