@@ -1,4 +1,4 @@
-.content_section3_1 {
+/* .content_section3_1 {
   background-image: url(/img/Vector\ 8.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,10 +13,44 @@
   overflow: hidden;
 }
 .swiper-wrapper {
+   display: flex;
+  flex-direction: row;
   transition-timing-function: linear;
 }
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.content_section3_1 {
+  background-image: url(/img/Vector\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -21px;
+  margin-top: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 300px; /* Минимальная высота */
+}
+
+.mySwiper {
+  /* width: 100%; На всю ширину родителя */
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row; /* Горизонтальное расположение */
+  transition-timing-function: linear;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ширина слайда */
+  flex-shrink: 0; /* Запрет сжатия */
 }
